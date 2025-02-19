@@ -8,6 +8,13 @@ header {
     text-align: center;
 }
 
+#puffin {
+    border: 5px solid #d9043d;
+    align-self: center;
+}
+
+
+
 aside {
     background-color: #97bf04;
 }
@@ -15,4 +22,5 @@ aside {
 
 footer {
     background-color: #d9043d;
+    color: white;
 }
