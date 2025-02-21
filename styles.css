@@ -6,14 +6,22 @@ header {
     background-color: #120323;
     color: #97bf04;
     text-align: center;
+    display: flex;
 }
 
-#puffin {
+img {
     border: 5px solid #d9043d;
     align-self: center;
 }
 
+figure {
+    display: flex;
+}
 
+main {
+    display: flex;
+    gap: 1rem;
+}
 
 aside {
     background-color: #97bf04;
@@ -23,4 +31,34 @@ aside {
 footer {
     background-color: #d9043d;
     color: white;
+    text-align: center;
 }
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 767px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+  
+
+  @media screen and (max-width: 999px) {
+    .container {
+      gap: 20px; 
+    }
+  }
+
+  @media screen and (min-width: 1001px) {
+    .container {
+        display: flex;
+
+    }
+  }
+    
+  
+
