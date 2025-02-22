@@ -47,5 +47,25 @@ footer {
 }
 
 @media screen and (min-width: 1000px) {
-
+    header {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    main figure {
+        display: flex;
+        flex: auto;
+        flex: 1;
+        gap: 1rem;
+    }
+    img[src="images/puffin-square.webp"] {
+        width: 300px;
+        height: 300px;
+    }
+    div {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: auto;
+        padding: 1rem;
+        }
 }
