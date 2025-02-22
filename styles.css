@@ -1,64 +1,51 @@
-body {
-    font-family: sans-serif;
-}
-
 header {
     background-color: #120323;
     color: #97bf04;
+    font-family: sans-serif;
     text-align: center;
-    display: flex;
+    padding: 20px;
 }
 
-img {
+img[src="images/puffin-square.webp"] {
     border: 5px solid #d9043d;
-    align-self: center;
+    max-width: 100%;
+    height: auto;
 }
 
-figure {
-    display: flex;
-}
-
-main {
-    display: flex;
-    gap: 1rem;
+figcaption {
+    font-family: sans-serif;
 }
 
 aside {
     background-color: #97bf04;
+    font-family: sans-serif;
 }
-
 
 footer {
     background-color: #d9043d;
     color: white;
-    text-align: center;
+    font-family: sans-serif;
 }
 
 
-* {
-    box-sizing: border-box;
-}
-
-
-@media screen and (max-width: 767px) {
-    .container {
-      flex-direction: column;
-    }
-  }
-  
-
-  @media screen and (max-width: 999px) {
-    .container {
-      gap: 20px; 
-    }
-  }
-
-  @media screen and (min-width: 1001px) {
-    .container {
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+    header {
         display: flex;
-
+        align-items: center;
+        gap: 1rem;
     }
-  }
-    
-  
+    main figure {
+        display: flex;
+        flex: auto;
+        flex: 1;
+        gap: 1rem;
+    }
+    img[src="images/puffin-square.webp"] {
+        width: 300px;
+        height: 300px;
+    }
+}
 
+@media screen and (min-width: 1000px) {
+
+}
