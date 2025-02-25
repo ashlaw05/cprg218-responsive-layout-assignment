@@ -19,12 +19,14 @@ figcaption {
 aside {
     background-color: #97bf04;
     font-family: sans-serif;
+    width: fit-content;
 }
 
 footer {
     background-color: #d9043d;
     color: white;
     font-family: sans-serif;
+    padding: 1rem;
 }
 
 
@@ -49,8 +51,11 @@ footer {
 @media screen and (min-width: 1000px) {
     header {
         display: flex;
+        justify-content: center;
         align-items: center;
         gap: 1rem;
+        padding: 1rem;
+        text-align: center;
     }
     main figure {
         display: flex;
@@ -66,6 +71,7 @@ footer {
         display: flex;
         justify-content: flex-end;
         margin-right: auto;
-        padding: 1rem;
-        }
+        margin-top: 2rem;
+        padding: 1rem;   
+    }
 }
