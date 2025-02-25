@@ -1,9 +1,11 @@
+
 header {
     background-color: #120323;
     color: #97bf04;
     font-family: sans-serif;
     text-align: center;
     padding: 20px;
+    margin: 0%;
 }
 
 img[src="images/puffin-square.webp"] {
@@ -24,9 +26,11 @@ aside {
 
 footer {
     background-color: #d9043d;
+    margin: 0%;
     color: white;
     font-family: sans-serif;
     padding: 1rem;
+    text-align: center;
 }
 
 
