@@ -1,10 +1,16 @@
+*{
+    box-sizing: border-box;
+}
 
 header {
+    margin: 0%;
     background-color: #120323;
     color: #97bf04;
     font-family: sans-serif;
     text-align: center;
-    padding: 20px;
+    padding: 2em;
+}
+body {
     margin: 0%;
 }
 
@@ -22,6 +28,8 @@ aside {
     background-color: #97bf04;
     font-family: sans-serif;
     width: fit-content;
+    padding: 1em;
+    margin-bottom: 1em;
 }
 
 footer {
@@ -34,7 +42,7 @@ footer {
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1000px) {
+@media screen and (min-width: 768px) {
     header {
         display: flex;
         align-items: center;
